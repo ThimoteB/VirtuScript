@@ -49,7 +49,7 @@ REPO="ThimoteB/VirtuScript"
 BRANCH="main"
 BASE_PATH=""
 
-FILES=("Dockerfile" "docker-compose.yaml" ".env")
+FILES=("Dockerfile" "compose.yaml" ".env.template")
 
 # Create directories for selected technologies and download files
 declare -A tech_paths=( ["1"]="php" ["2"]="pma" ["3"]="mailpit" ["4"]="node" )
